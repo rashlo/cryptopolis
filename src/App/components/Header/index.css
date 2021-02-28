@@ -1,0 +1,13 @@
+.main-title {
+	display: inline;
+	top: 0px;
+	left: 0px;
+	float: left;
+	padding: 30px;
+	margin-bottom: 60px;
+	font-family: Orbitron;
+	text-align: left;
+	border-bottom-right-radius: 20px;
+	box-shadow: 5px 5px 5px #888888;
+}
+
