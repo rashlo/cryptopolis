@@ -1,59 +1,29 @@
 import React from 'react';
-
-const tableStyles = {
-	color: "black",
-	marginTop: "100px",
-	paddingTop: "20px",
-	paddingBottom: "20px",
-	fontFamily: "Arial",
-	marginLeft: "auto",
-	marginRight: "auto",
-	borderRadius: "14px",
-	width: "80%",
-	boxShadow: "-5px -5px 5px #888888"
-}
-
-const centerText = {
-    textAlign: "center", 
-    verticalAlign: "middle"
-}
+import './index.css'
 
 export default function CoinModule() {
   return (
 		<>
-			<table style={tableStyles}>
+			<table>
 				<tr>
-					<th style={centerText}>Firstname</th>
-					<th style={centerText}>Lastname</th>
-					<th style={centerText}>Age</th>
+					<th>Coin</th>
+					<th>Price</th>
+					<th>Mkt Cap</th>
 				</tr>
 				<tr>
-					<td style={centerText}>Jill</td>
-					<td style={centerText}>Smith</td>
-					<td style={centerText}>50</td>
+					<td>BTC</td>
+					<td>44,101</td>
+					<td>956 B</td>
 				</tr>
 				<tr>
-					<td style={centerText}>Eve</td>
-					<td style={centerText}>Jackson</td>
-					<td style={centerText}>94</td>
-				</tr>
-			</table>
-
-			<table style={tableStyles}>
-				<tr>
-					<th>Firstname</th>
-					<th>Lastname</th>
-					<th>Age</th>
+					<td>ETH</td>
+					<td>1,390</td>
+					<td>154 B</td>
 				</tr>
 				<tr>
-					<td>Jill</td>
-					<td>Smith</td>
-					<td>50</td>
-				</tr>
-				<tr>
-					<td>Eve</td>
-					<td>Jackson</td>
-					<td>94</td>
+					<td>ADA</td>
+					<td>1.21</td>
+					<td>38 B</td>
 				</tr>
 			</table>
 		</>
