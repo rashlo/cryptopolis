@@ -10,10 +10,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+	background-image: url("https://motionarray.imgix.net/preview-6200095xIJqqsuc_0015.jpg");
+	opacity: 0.95;
 }
-/*
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-*/
