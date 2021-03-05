@@ -1,13 +1,14 @@
 table {
-	padding-top: 20px;
-	padding-bottom: 20px;
   margin-left: auto;
 	margin-right: auto;
 	background-color: azure;
 	border-radius: 14px;
 	width: 90%;
+	border: 15px solid azure;
+	border-spacing: 0px;
+	border-top: none;
+	border-bottom: none;
 	box-shadow: 5px 5px 5px #888888;
-	border-collapse: collapse;
 }
 
 table th {
@@ -15,9 +16,13 @@ table th {
 }
 
 table td {
-	border: 1px solid black;
+	border-collapse: collapse; 
+	border-spacing: 0px;
+	text-align: center;
+	border: 1px solid grey;
 	border-left: none;
 	border-right: none;
+	border-bottom: none;
 	padding: 20px;
 }
 

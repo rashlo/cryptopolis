@@ -5,6 +5,7 @@ export default function CoinModule() {
   return (
 		<>
 			<table>
+			<tbody>
 				<tr>
 					<th>Coin</th>
 					<th>Price</th>
@@ -25,6 +26,7 @@ export default function CoinModule() {
 					<td>1.21</td>
 					<td>38 B</td>
 				</tr>
+			</tbody>
 			</table>
 		</>
   );
