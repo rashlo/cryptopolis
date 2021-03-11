@@ -25,14 +25,28 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+		<script src="./particles/particles.js"></script>
     <title>CRYPTOPOLIS</title>
+		<!--| style>
+			body {
+				background-image: url("./cool-background.png");
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+		</style |-->
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+		<div id="particle-div"></div>
     <div id="root"></div>
     <!--
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+	<script>
+		particlesJS.load('particle-div', './particles/particle-cfg.json', function() {
+  		console.log('callback - particles.js config loaded');
+		});
+	</script>
 </html>

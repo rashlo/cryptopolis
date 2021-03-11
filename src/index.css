@@ -4,12 +4,35 @@
 }
 
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-	background-image: url("https://motionarray.imgix.net/preview-6200095xIJqqsuc_0015.jpg");
-	opacity: 0.95;
+	/*background-image: url("https://motionarray.imgix.net/preview-6200095xIJqqsuc_0015.jpg");
+	background-image: url("./cool-background.png");
+	background-repeat: no-repeat;
+  background-size: cover;
+	height: 100vh;
+	background-image: url("./cool-background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: visible;
+	opacity: 95%;*/
+}
+
+#particle-div {
+    margin: 0 auto;
+    width:800px;
+    height:500px;
+		z-index: 2;
+}
+
+#root {
+/*height: 100vh;
+	background-image: url("./cool-background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: visible;
+	opacity: 95%;*/
 }
