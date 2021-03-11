@@ -1,9 +1,10 @@
 .main-title {
+	position: relative;
+	z-index: 2;
 	background-color: white;
 	display: inline-block;
 	top: 0px;
 	left: 0px;
-	/*float: left;*/
 	padding: 30px;
 	margin-bottom: 60px;
 	font-family: Orbitron;

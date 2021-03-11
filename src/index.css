@@ -22,10 +22,11 @@ body {
 }
 
 #particle-div {
-    margin: 0 auto;
-    width:800px;
-    height:500px;
-		z-index: 2;
+	background-color: red;	
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	z-index: -1;
 }
 
 #root {
