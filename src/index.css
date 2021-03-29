@@ -9,20 +9,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-	/*background-image: url("https://motionarray.imgix.net/preview-6200095xIJqqsuc_0015.jpg");
-	background-image: url("./cool-background.png");
-	background-repeat: no-repeat;
-  background-size: cover;
-	height: 100vh;
-	background-image: url("./cool-background.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	overflow: visible;
-	opacity: 95%;*/
 }
 
-#particle-div {
-	background-color: red;	
+#particles-js {
+	position: absolute;
+	z-index: -1;
+	/*background-color: ;	*/
 	width: 100vw;
 	height: 100vh;
 	position: absolute;
@@ -30,10 +22,5 @@ body {
 }
 
 #root {
-/*height: 100vh;
-	background-image: url("./cool-background.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	overflow: visible;
-	opacity: 95%;*/
+  height: 100vh;
 }
