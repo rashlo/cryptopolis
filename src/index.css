@@ -11,16 +11,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-#particles-js {
-	position: absolute;
-	z-index: -1;
-	/*background-color: ;	*/
-	width: 100vw;
-	height: 100vh;
-	position: absolute;
-	z-index: -1;
-}
-
 #root {
   height: 100vh;
 }

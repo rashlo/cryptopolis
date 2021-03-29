@@ -1,0 +1,21 @@
+#darkmode-button {
+	outline: none;
+	/*background: linear-gradient(to right, #383838 50%, #F8F8FF 50%);*/
+	background: linear-gradient(to right, #F8F8FF 50%, #383838 50%);
+	position: absolute;
+	padding: 10px;
+	margin: 35px;
+	border-radius: 50%;
+	top: 0px;
+	right: 0px;
+}
+
+#darkmode-button:hover {
+	background-color: black;
+}
+
+.darkmode {
+	background-color: #383838;
+  color: #F8F8FF;
+	font-weight: bold;
+}

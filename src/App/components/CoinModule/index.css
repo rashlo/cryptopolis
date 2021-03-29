@@ -1,12 +1,13 @@
 table {
 	position: relative;
 	z-index: 2;
+	/*opacity: 10%;*/
 	margin-left: auto;
 	margin-right: auto;
-	background-color: white;
+	/*background-color: white;*/
 	border-radius: 14px;
 	width: 90%;
-	border: 20px solid white;
+	border: 20px solid transparent;
 	border-spacing: 0px;
 	border-top: none;
 	border-bottom: none;
