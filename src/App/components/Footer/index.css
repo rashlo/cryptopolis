@@ -1,0 +1,11 @@
+#footer {
+	height: 100px;
+	width: 100vw;
+	display: flex;
+  justify-content: center;
+}
+
+#footer-msg {
+	padding: 30px;
+}
+
