@@ -47,7 +47,7 @@ return (
 			<tbody>
 				<tr>
 					<th>Token</th>
-	<th></th>
+					<th>Symbol</th>
 					<th>Price (USD)</th>
 					<th>Rank (Mkt Cap)</th>
 				</tr>
