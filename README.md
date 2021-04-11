@@ -1,5 +1,8 @@
-<h1> [Cryptopolis](https://cryptopolis-page.herokuapp.com/) </h1>
-Cryptocurrency market data.
+# [Cryptopolis](https://cryptopolis-page.herokuapp.com) 
+Market data for the top 100 cryptocurrencies.
 <br/>
 <br/>
-Background created using [particles.js](https://vincentgarreau.com/particles.js/)
+Data fetched from [CoinGecko API V3](https://www.coingecko.com/api/documentations/v3#/).
+<br/>
+<br/>
+Background created using [particles.js](https://vincentgarreau.com/particles.js).
