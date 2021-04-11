@@ -33,6 +33,23 @@ table td {
 	border-bottom: none;
 	padding: 20px;
 }
+/*
+table td p {
+	text-decoration: underline;
+	padding-right: 8px;
+}*/
+
+table img {
+	border-collapse: collapse; 
+	border-spacing: 0px;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	padding: 20px;
+	height: 40px;
+	display: block;
+	margin: 0 auto;
+}
 
 table th:first-child {
 	text-align: left;
